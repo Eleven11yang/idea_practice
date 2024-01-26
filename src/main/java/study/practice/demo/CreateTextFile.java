@@ -1,4 +1,4 @@
-package study.practice;
+package study.practice.demo;
 
 import java.io.BufferedWriter;
 import java.io.File;

@@ -1,4 +1,4 @@
-package study.practice;
+package study.practice.hm3;
 
 public class UnsignedInteger {
     //实现一个无符号整数类

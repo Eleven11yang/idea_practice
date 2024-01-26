@@ -1,4 +1,6 @@
-package study.practice;
+package study.practice.demo;
+
+import study.practice.demo.MyClass;
 
 public class MyOtherClass {
     public static void main(String[] args) {

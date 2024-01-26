@@ -1,4 +1,4 @@
-package study.practice;
+package study.practice.demo;
 
 public class MyClass {
     int x = 10;  // 默认访问修饰符

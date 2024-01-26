@@ -1,9 +1,10 @@
-package study.practice;
+package study.practice.hm3;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
 public class CountByteOccurrences {
+    //使用不超过100M的内存，扫描这个2GB的文件，统计0x01的数量
     public static void main(String[] args) {
         String filePath = "largeFile.bin";
         byte targetByte = 0x01;
@@ -20,17 +21,14 @@ public class CountByteOccurrences {
             while (bytesRead < fileSize) {
                 int bytesToRead = (int) Math.min(bufferSize, fileSize - bytesRead);
                 file.read(buffer, 0, bytesToRead);
-
-                // Count occurrences of target byte in the buffer
+                // 计数缓冲区中目标字节的出现次数
                 for (int i = 0; i < bytesToRead; i++) {
                     if (buffer[i] == targetByte) {
                         totalCount++;
                     }
                 }
-
                 bytesRead += bytesToRead;
             }
-
             System.out.println("Occurrences of 0x01: " + totalCount);
         } catch (IOException e) {
             e.printStackTrace();

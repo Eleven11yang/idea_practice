@@ -1,4 +1,4 @@
-package study.practice;
+package study.practice.demo;
 
 public class JsonToMapExample {
     public static void main(String[] args) {

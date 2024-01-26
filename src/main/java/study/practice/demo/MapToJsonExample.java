@@ -1,4 +1,4 @@
-package study.practice;
+package study.practice.demo;
 
 import java.util.HashMap;
 import java.util.Map;

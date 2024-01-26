@@ -1,4 +1,4 @@
-package study.practice;
+package study.practice.demo;
 
 public class InstanceCounter {
     private static int numInstances = 0;
