@@ -20,9 +20,8 @@ public class GenerateLargeFile {
             }
             Random random = new Random();
             long numReplacements = random.nextInt((int) (fileSize / 2)) + 1;
-            System.out.println(numReplacements);
             for (long i = 0; i < numReplacements; i++) {
-                long indexToReplace = random.nextLong(numReplacements);
+                long indexToReplace = random.nextInt((int)numReplacements);
                 file.seek(indexToReplace);
                 file.write(0x01);
             }

@@ -1,0 +1,9 @@
+config:
+  property1: "Hello, YAML!"
+  property2: 42
+complex-config:
+  property1: "Hello, YAML!"
+  property2: 42
+  nested-configs:
+    - nestedProperty: "Nested Property 1"
+    - nestedProperty: "Nested Property 2"

@@ -1,3 +1,4 @@
-{"name":"July","age":18}
-{"name":"Anna","age":21}
-{"name":"Anna","age":40}
+{"isElephantInside":false,"isFridgeOpen":false,"name":"Anna","isFridgeLocked":false}
+{"isElephantInside":false,"isFridgeOpen":false,"name":"July","isFridgeLocked":false}
+{"isElephantInside":false,"isFridgeOpen":true,"name":"July","isFridgeLocked":false}
+{"isElephantInside":false,"isFridgeOpen":true,"name":"Amy","isFridgeLocked":false}
